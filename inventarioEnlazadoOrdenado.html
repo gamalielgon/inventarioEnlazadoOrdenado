@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <style>
+        body {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        }
+    </style>
+    
+    </head>
+    <body>
+    <h1>Control de inventario</h1>
+    <div id='app'>
+      <form>
+        <label for="txtCode">
+          Codigo:<input type='text' id='txtCode'>
+        </label>
+        <label for="txtProduct">
+          Producto:<input type='text' id='txtProduct'>
+        </label>
+        <label for="txtQuantity">
+          Cantidad:<input type='text' id='txtQuantity'>
+        </label>
+        <label for="txtCost">
+          Costo:<input type='text' id='txtCost'>
+        </label>
+        <button type='button' id='btnAdd'>Agregar</button>
+        <button type='button' id='btnSearch'>Buscar</button>
+        <button type='button' id='btnDelete'>Borrar</button>
+        <button type='button' id='btnList'>Listar</button>
+        <button type='button' id='btnListInv'>Listar Inverso</button>
+        <button type='reset'>Cancelar</button>
+      </form>
+      <div id='details'></div>
+    </div>
+    </body>
+    <script src="inventarioEnlazadoOrdenado.js" type="module"></script>
+</html>
